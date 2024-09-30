@@ -16,7 +16,7 @@ model = genai.GenerativeModel(
         temperature=0.9,
     )
 )
-
+#teste
 # Função para ler termos do JSON
 def carregar_termos():
     with open('termos.json', 'r', encoding='utf-8') as f:
